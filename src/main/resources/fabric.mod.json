@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fragments",
+  "version": "${version}",
+  "name": "Fragments",
+  "description": "",
+  "authors": [
+    "ItsSheepish"
+  ],
+  "contact": {
+    "repo": "https://github.com/Roman/Fragments"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fragments/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "its.sheepish.fragments.Fragments"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
