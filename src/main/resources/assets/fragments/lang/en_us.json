@@ -1,4 +1,8 @@
 {
+  "itemgroup.fragmentation": "Fragments",
+
   "item.fragments.diamond_frag": "Diamond Fragment",
-  "item.fragments.diamond_cut": "Cut Diamond"
+  "item.fragments.diamond_cut": "Cut Diamond",
+
+  "item.fragments.spawner_frag": "Spawner Fragment"
 }

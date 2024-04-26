@@ -12,8 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item DiamondFragment = registerItem("diamond_frag", new Item(new FabricItemSettings()));
+    public static final Item DiamondCut = registerItem("diamond_cut", new Item(new FabricItemSettings()));
+    public static final Item SpawnerFragment = registerItem("spawner_frag", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.DiamondFragment);
+        entries.add(ModItems.DiamondCut);
+        entries.add(ModItems.SpawnerFragment);
     }
 
     private static Item registerItem(String name, Item item) {

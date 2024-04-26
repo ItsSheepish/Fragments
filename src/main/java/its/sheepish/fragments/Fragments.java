@@ -28,6 +28,6 @@ public class Fragments implements ModInitializer {
 
     public static void init() {
         ModItems.registerAll();
-        ModCreativeTabs.register();
+        ModCreativeTabs.registerModGroups();
     }
 }
