@@ -20,9 +20,14 @@ public class ModCreativeTabs {
                         entries.add(ModItems.DiamondCut);
                         entries.add(ModItems.SpawnerFragment);
 
+                        entries.add(ModItems.DiamondShears);
+                        entries.add(ModItems.NetheriteShears);
+
+                        entries.add(ModItems.DiamondUpgrade);
+
                     }).build());
 
     public static void registerModGroups() {
-        Fragments.LOGGER.info("Making some fantastic item groups for "+Fragments.MOD_ID);
+        Fragments.LOGGER.info("Made some fantastic item groups for "+Fragments.MOD_ID);
     }
 }

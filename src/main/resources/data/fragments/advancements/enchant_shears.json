@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shears",
+      "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+    },
+    "title": {
+      "translate": "advancements.fragments.shears_enchant.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.shears_enchant.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:shears",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": {
+          "enchantments": [
+            {
+              "enchantment": "fragments:shearing"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

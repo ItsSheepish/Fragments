@@ -4,5 +4,24 @@
   "item.fragments.diamond_frag": "Diamond Fragment",
   "item.fragments.diamond_cut": "Cut Diamond",
 
-  "item.fragments.spawner_frag": "Spawner Fragment"
+  "item.fragments.diamond_upgrade": "Smithing Template",
+
+  "item.fragments.diamond_shears": "Diamond Shears",
+  "item.fragments.netherite_shears": "Netherite Shears",
+  "enchantment.fragments.shearing": "Shearing",
+
+  "item.fragments.spawner_frag": "Spawner Fragment",
+
+  "advancements.fragments.root.title": "Fragments",
+  "advancements.fragments.root.description": "Start breaking stuff down, and building it back up again",
+
+  "advancements.fragments.shears.title": "Diamond Shears??",
+  "advancements.fragments.shears.description": "Weirder than making a diamond hoe",
+  "advancements.fragments.nether_shears.title": "Seriously?",
+  "advancements.fragments.nether_shears.description": "Use a netherite ingot to get a slightly better pair of shears, you better be reevaluating your life choices",
+  "advancements.fragments.shears_enchant.title": "Least Useful Enchantment",
+  "advancements.fragments.shears_enchant.description": "At least it does something ig",
+
+  "advancements.fragments.spawner.title": "Not Completely Destroyed",
+  "advancements.fragments.spawner.description": ""
 }

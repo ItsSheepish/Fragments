@@ -1,5 +1,8 @@
 package its.sheepish.fragments;
 
+import its.sheepish.fragments.action.SpawnerSilkTouchHandler;
+import its.sheepish.fragments.enchantments.ModEnchantments;
+import its.sheepish.fragments.enchantments.Shearing;
 import its.sheepish.fragments.items.ModCreativeTabs;
 import net.fabricmc.api.ModInitializer;
 import its.sheepish.fragments.items.ModItems;
@@ -29,5 +32,7 @@ public class Fragments implements ModInitializer {
     public static void init() {
         ModItems.registerAll();
         ModCreativeTabs.registerModGroups();
+        ModEnchantments.registerEnchantments();
+        SpawnerSilkTouchHandler.registerEventHandler();
     }
 }

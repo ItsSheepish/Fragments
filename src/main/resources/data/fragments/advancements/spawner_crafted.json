@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "title": {
+      "translate": "advancements.fragments.spawner_crafted.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.spawner_crafted.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:spawner",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spawner"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

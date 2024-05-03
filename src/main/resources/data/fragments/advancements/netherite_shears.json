@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "fragments:netherite_shears"
+    },
+    "title": {
+      "translate": "advancements.fragments.nether_shears.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.nether_shears.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "fragments:shears",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fragments:netherite_shears"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

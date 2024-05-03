@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "fragments:diamond_shears"
+    },
+    "title": {
+      "translate": "advancements.fragments.shears.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.shears.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:fragment_root",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fragments:diamond_shears"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

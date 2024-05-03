@@ -20,6 +20,9 @@
       "its.sheepish.fragments.Fragments"
     ]
   },
+  "mixins": [
+    "fragments.mixin.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
