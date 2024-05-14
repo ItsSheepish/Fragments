@@ -7,6 +7,7 @@ import its.sheepish.fragments.enchantments.ModEnchantments;
 import its.sheepish.fragments.items.ModCreativeTabs;
 import its.sheepish.fragments.recipe.ModRecipes;
 import its.sheepish.fragments.screen.ModScreenHandlers;
+import its.sheepish.fragments.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 import its.sheepish.fragments.items.ModItems;
 import org.slf4j.Logger;
@@ -41,5 +42,6 @@ public class Fragments implements ModInitializer {
         ModBlockEntities.registerBlockEntities();
         ModScreenHandlers.registerScreenHandlers();
         ModRecipes.regiserRecipes();
+        ModLootTableModifiers.modifyLootTables();
     }
 }
