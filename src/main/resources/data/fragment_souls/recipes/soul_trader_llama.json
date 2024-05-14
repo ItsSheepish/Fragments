@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:trader_llama_soul" 
+    }, 
+    { 
+      "item": "fragments:trader_llama_soul" 
+    }, 
+    { 
+      "item": "fragments:trader_llama_soul" 
+    }, 
+    { 
+      "item": "fragments:trader_llama_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:trader_llama_spawn_egg", 
+    "count": 1 
+  } 
+} 

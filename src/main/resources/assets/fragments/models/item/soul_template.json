@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fragments:item/soul_item",
+    "layer1": "fragments:item/soul_item_overlay"
+  }
+}

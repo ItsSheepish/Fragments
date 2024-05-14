@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:skeleton_soul" 
+    }, 
+    { 
+      "item": "fragments:skeleton_soul" 
+    }, 
+    { 
+      "item": "fragments:skeleton_soul" 
+    }, 
+    { 
+      "item": "fragments:skeleton_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:skeleton_spawn_egg", 
+    "count": 1 
+  } 
+} 

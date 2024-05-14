@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:bat_soul" 
+    }, 
+    { 
+      "item": "fragments:bat_soul" 
+    }, 
+    { 
+      "item": "fragments:bat_soul" 
+    }, 
+    { 
+      "item": "fragments:bat_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:bat_spawn_egg", 
+    "count": 1 
+  } 
+} 

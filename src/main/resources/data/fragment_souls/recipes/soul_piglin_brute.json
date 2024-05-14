@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:piglin_brute_soul" 
+    }, 
+    { 
+      "item": "fragments:piglin_brute_soul" 
+    }, 
+    { 
+      "item": "fragments:piglin_brute_soul" 
+    }, 
+    { 
+      "item": "fragments:piglin_brute_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:piglin_brute_spawn_egg", 
+    "count": 1 
+  } 
+} 

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:tadpole_soul" 
+    }, 
+    { 
+      "item": "fragments:tadpole_soul" 
+    }, 
+    { 
+      "item": "fragments:tadpole_soul" 
+    }, 
+    { 
+      "item": "fragments:tadpole_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:tadpole_spawn_egg", 
+    "count": 1 
+  } 
+} 

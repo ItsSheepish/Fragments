@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "fragments:fragment_root",
+  "parent": "fragments:shears",
   "criteria": {
     "diamond": {
       "trigger": "minecraft:inventory_changed",

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:glow_squid_soul" 
+    }, 
+    { 
+      "item": "fragments:glow_squid_soul" 
+    }, 
+    { 
+      "item": "fragments:glow_squid_soul" 
+    }, 
+    { 
+      "item": "fragments:glow_squid_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:glow_squid_spawn_egg", 
+    "count": 1 
+  } 
+} 

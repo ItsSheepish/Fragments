@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:ocelot_soul" 
+    }, 
+    { 
+      "item": "fragments:ocelot_soul" 
+    }, 
+    { 
+      "item": "fragments:ocelot_soul" 
+    }, 
+    { 
+      "item": "fragments:ocelot_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:ocelot_spawn_egg", 
+    "count": 1 
+  } 
+} 

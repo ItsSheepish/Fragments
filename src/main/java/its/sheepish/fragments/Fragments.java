@@ -1,9 +1,12 @@
 package its.sheepish.fragments;
 
 import its.sheepish.fragments.action.SpawnerSilkTouchHandler;
+import its.sheepish.fragments.blocks.ModBlocks;
+import its.sheepish.fragments.blocks.entity.ModBlockEntities;
 import its.sheepish.fragments.enchantments.ModEnchantments;
-import its.sheepish.fragments.enchantments.Shearing;
 import its.sheepish.fragments.items.ModCreativeTabs;
+import its.sheepish.fragments.recipe.ModRecipes;
+import its.sheepish.fragments.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
 import its.sheepish.fragments.items.ModItems;
 import org.slf4j.Logger;
@@ -34,5 +37,9 @@ public class Fragments implements ModInitializer {
         ModCreativeTabs.registerModGroups();
         ModEnchantments.registerEnchantments();
         SpawnerSilkTouchHandler.registerEventHandler();
+        ModBlocks.registerModBlocks();
+        ModBlockEntities.registerBlockEntities();
+        ModScreenHandlers.registerScreenHandlers();
+        ModRecipes.regiserRecipes();
     }
 }

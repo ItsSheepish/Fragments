@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "fragments:spawner_frag"
+      "item": "fragments:sheepish"
     },
     "title": {
       "translate": "advancements.fragments.root.title"

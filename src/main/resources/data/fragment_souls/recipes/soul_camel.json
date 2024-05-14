@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:camel_soul" 
+    }, 
+    { 
+      "item": "fragments:camel_soul" 
+    }, 
+    { 
+      "item": "fragments:camel_soul" 
+    }, 
+    { 
+      "item": "fragments:camel_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:camel_spawn_egg", 
+    "count": 1 
+  } 
+} 

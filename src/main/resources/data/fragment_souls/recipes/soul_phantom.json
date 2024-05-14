@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:phantom_soul" 
+    }, 
+    { 
+      "item": "fragments:phantom_soul" 
+    }, 
+    { 
+      "item": "fragments:phantom_soul" 
+    }, 
+    { 
+      "item": "fragments:phantom_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:phantom_spawn_egg", 
+    "count": 1 
+  } 
+} 

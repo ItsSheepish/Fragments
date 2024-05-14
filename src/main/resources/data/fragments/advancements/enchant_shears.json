@@ -15,18 +15,21 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "fragments:shears",
+  "parent": "fragments:diamond_fragment",
   "criteria": {
     "enchanted_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "item": {
-          "enchantments": [
-            {
-              "enchantment": "fragments:shearing"
-            }
-          ]
-        }
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "fragments:shearing"
+              }
+            ],
+            "item": "minecraft:enchanted_book"
+          }
+        ]
       }
     }
   },

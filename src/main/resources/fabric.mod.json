@@ -15,6 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
+      "its.sheepish.fragments.FragmentsClient"
     ],
     "main": [
       "its.sheepish.fragments.Fragments"

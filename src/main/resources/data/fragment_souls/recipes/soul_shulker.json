@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:shulker_soul" 
+    }, 
+    { 
+      "item": "fragments:shulker_soul" 
+    }, 
+    { 
+      "item": "fragments:shulker_soul" 
+    }, 
+    { 
+      "item": "fragments:shulker_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:shulker_spawn_egg", 
+    "count": 1 
+  } 
+} 

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:panda_soul" 
+    }, 
+    { 
+      "item": "fragments:panda_soul" 
+    }, 
+    { 
+      "item": "fragments:panda_soul" 
+    }, 
+    { 
+      "item": "fragments:panda_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:panda_spawn_egg", 
+    "count": 1 
+  } 
+} 

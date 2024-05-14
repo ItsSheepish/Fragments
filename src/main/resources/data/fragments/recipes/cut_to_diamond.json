@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fragments:diamond_cut"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 3
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "fragments:diamond_cut"
+    },
+    "title": {
+      "translate": "advancements.fragments.diamond_cut.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.diamond_cut.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:diamond_fragment",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fragments:diamond_cut"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "fragments:diamond_blade",
+      "fragments:sharpened_diamond_pickaxe",
+      "fragments:diamond_war_axe",
+      "fragments:diamond_excavator",
+      "fragments:diamond_scythe"
+    ]
+  },
+  "sends_telemetry_event": true
+}

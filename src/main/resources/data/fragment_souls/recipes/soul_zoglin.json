@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:zoglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zoglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zoglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zoglin_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:zoglin_spawn_egg", 
+    "count": 1 
+  } 
+} 

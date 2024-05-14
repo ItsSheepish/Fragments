@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:pig_soul" 
+    }, 
+    { 
+      "item": "fragments:pig_soul" 
+    }, 
+    { 
+      "item": "fragments:pig_soul" 
+    }, 
+    { 
+      "item": "fragments:pig_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:pig_spawn_egg", 
+    "count": 1 
+  } 
+} 

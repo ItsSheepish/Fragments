@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:goat_soul" 
+    }, 
+    { 
+      "item": "fragments:goat_soul" 
+    }, 
+    { 
+      "item": "fragments:goat_soul" 
+    }, 
+    { 
+      "item": "fragments:goat_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:goat_spawn_egg", 
+    "count": 1 
+  } 
+} 

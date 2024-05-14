@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:fox_soul" 
+    }, 
+    { 
+      "item": "fragments:fox_soul" 
+    }, 
+    { 
+      "item": "fragments:fox_soul" 
+    }, 
+    { 
+      "item": "fragments:fox_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:fox_spawn_egg", 
+    "count": 1 
+  } 
+} 

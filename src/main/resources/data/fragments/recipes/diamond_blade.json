@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "D",
+    "S"
+  ],
+  "key": {
+    "D": {
+      "item": "fragments:diamond_cut"
+    },
+    "S": {
+      "item": "fragments:dia_stick"
+    }
+  },
+  "result": {
+    "item": "fragments:diamond_blade",
+    "count": 1
+  }
+}

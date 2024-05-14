@@ -7,7 +7,7 @@
         "item": "minecraft:shears"
     },
     "addition": {
-        "item": "minecraft:diamond"
+        "item": "fragments:diamond_cut"
     },
     "result": {
         "item": "fragments:diamond_shears"

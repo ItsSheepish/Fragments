@@ -29,5 +29,10 @@
       }
     }
   },
+  "rewards": {
+    "recipes": [
+      "minecraft:spawner"
+    ]
+  },
   "sends_telemetry_event": true
 }

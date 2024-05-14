@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:turtle_soul" 
+    }, 
+    { 
+      "item": "fragments:turtle_soul" 
+    }, 
+    { 
+      "item": "fragments:turtle_soul" 
+    }, 
+    { 
+      "item": "fragments:turtle_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:turtle_spawn_egg", 
+    "count": 1 
+  } 
+} 

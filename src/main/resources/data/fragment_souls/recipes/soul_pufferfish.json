@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:pufferfish_soul" 
+    }, 
+    { 
+      "item": "fragments:pufferfish_soul" 
+    }, 
+    { 
+      "item": "fragments:pufferfish_soul" 
+    }, 
+    { 
+      "item": "fragments:pufferfish_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:pufferfish_spawn_egg", 
+    "count": 1 
+  } 
+} 

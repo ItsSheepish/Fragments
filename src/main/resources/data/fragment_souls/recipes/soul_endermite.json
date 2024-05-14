@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:endermite_soul" 
+    }, 
+    { 
+      "item": "fragments:endermite_soul" 
+    }, 
+    { 
+      "item": "fragments:endermite_soul" 
+    }, 
+    { 
+      "item": "fragments:endermite_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:endermite_spawn_egg", 
+    "count": 1 
+  } 
+} 

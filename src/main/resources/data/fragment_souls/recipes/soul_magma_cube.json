@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:magma_cube_soul" 
+    }, 
+    { 
+      "item": "fragments:magma_cube_soul" 
+    }, 
+    { 
+      "item": "fragments:magma_cube_soul" 
+    }, 
+    { 
+      "item": "fragments:magma_cube_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:magma_cube_spawn_egg", 
+    "count": 1 
+  } 
+} 

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:mooshroom_soul" 
+    }, 
+    { 
+      "item": "fragments:mooshroom_soul" 
+    }, 
+    { 
+      "item": "fragments:mooshroom_soul" 
+    }, 
+    { 
+      "item": "fragments:mooshroom_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:mooshroom_spawn_egg", 
+    "count": 1 
+  } 
+} 

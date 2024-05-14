@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book",
+      "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+    },
+    "title": {
+      "translate": "advancements.fragments.harvester_enchant.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.harvester_enchant.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:scythe",
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "stored_enchantments": [
+              {
+                "enchantment": "fragments:soul_reaper"
+              }
+            ],
+            "item": "minecraft:enchanted_book"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:axolotl_soul" 
+    }, 
+    { 
+      "item": "fragments:axolotl_soul" 
+    }, 
+    { 
+      "item": "fragments:axolotl_soul" 
+    }, 
+    { 
+      "item": "fragments:axolotl_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:axolotl_spawn_egg", 
+    "count": 1 
+  } 
+} 

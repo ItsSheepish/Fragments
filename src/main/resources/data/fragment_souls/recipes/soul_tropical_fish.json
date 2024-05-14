@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:tropical_fish_soul" 
+    }, 
+    { 
+      "item": "fragments:tropical_fish_soul" 
+    }, 
+    { 
+      "item": "fragments:tropical_fish_soul" 
+    }, 
+    { 
+      "item": "fragments:tropical_fish_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:tropical_fish_spawn_egg", 
+    "count": 1 
+  } 
+} 

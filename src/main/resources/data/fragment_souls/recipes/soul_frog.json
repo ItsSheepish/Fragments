@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:frog_soul" 
+    }, 
+    { 
+      "item": "fragments:frog_soul" 
+    }, 
+    { 
+      "item": "fragments:frog_soul" 
+    }, 
+    { 
+      "item": "fragments:frog_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:frog_spawn_egg", 
+    "count": 1 
+  } 
+} 

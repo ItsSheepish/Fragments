@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:drowned_soul" 
+    }, 
+    { 
+      "item": "fragments:drowned_soul" 
+    }, 
+    { 
+      "item": "fragments:drowned_soul" 
+    }, 
+    { 
+      "item": "fragments:drowned_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:drowned_spawn_egg", 
+    "count": 1 
+  } 
+} 

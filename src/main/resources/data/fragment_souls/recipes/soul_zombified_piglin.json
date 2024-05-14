@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:zombified_piglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zombified_piglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zombified_piglin_soul" 
+    }, 
+    { 
+      "item": "fragments:zombified_piglin_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:zombified_piglin_spawn_egg", 
+    "count": 1 
+  } 
+} 

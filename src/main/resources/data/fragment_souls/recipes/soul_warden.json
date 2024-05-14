@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:warden_soul" 
+    }, 
+    { 
+      "item": "fragments:warden_soul" 
+    }, 
+    { 
+      "item": "fragments:warden_soul" 
+    }, 
+    { 
+      "item": "fragments:warden_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:warden_spawn_egg", 
+    "count": 1 
+  } 
+} 

@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:strider_soul" 
+    }, 
+    { 
+      "item": "fragments:strider_soul" 
+    }, 
+    { 
+      "item": "fragments:strider_soul" 
+    }, 
+    { 
+      "item": "fragments:strider_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:strider_spawn_egg", 
+    "count": 1 
+  } 
+} 

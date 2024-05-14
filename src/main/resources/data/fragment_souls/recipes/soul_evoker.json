@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:evoker_soul" 
+    }, 
+    { 
+      "item": "fragments:evoker_soul" 
+    }, 
+    { 
+      "item": "fragments:evoker_soul" 
+    }, 
+    { 
+      "item": "fragments:evoker_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:evoker_spawn_egg", 
+    "count": 1 
+  } 
+} 

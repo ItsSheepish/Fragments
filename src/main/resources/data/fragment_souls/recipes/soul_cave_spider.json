@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:cave_spider_soul" 
+    }, 
+    { 
+      "item": "fragments:cave_spider_soul" 
+    }, 
+    { 
+      "item": "fragments:cave_spider_soul" 
+    }, 
+    { 
+      "item": "fragments:cave_spider_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:cave_spider_spawn_egg", 
+    "count": 1 
+  } 
+} 

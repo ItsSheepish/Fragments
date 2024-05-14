@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:blaze_soul" 
+    }, 
+    { 
+      "item": "fragments:blaze_soul" 
+    }, 
+    { 
+      "item": "fragments:blaze_soul" 
+    }, 
+    { 
+      "item": "fragments:blaze_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:blaze_spawn_egg", 
+    "count": 1 
+  } 
+} 

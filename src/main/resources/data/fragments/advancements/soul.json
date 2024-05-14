@@ -1,0 +1,110 @@
+{ 
+  "display": { 
+    "icon": { 
+      "item": "fragments:sheep_soul" 
+    }, 
+    "title": { 
+      "translate": "advancements.fragments.soul.title" 
+    }, 
+    "description": { 
+      "translate": "advancements.fragments.soul.description" 
+    }, 
+    "frame": "task", 
+    "show_toast": true, 
+    "announce_to_chat": true,
+    "hidden": false
+  }, 
+  "parent": "fragments:fragment_root",
+  "criteria": { 
+    "diamond": { 
+      "trigger": "minecraft:inventory_changed", 
+      "conditions": { 
+        "items": [ 
+          { 
+            "items": [ 
+             "fragments:allay_soul", 
+             "fragments:axolotl_soul", 
+             "fragments:bat_soul", 
+             "fragments:camel_soul", 
+             "fragments:cat_soul", 
+             "fragments:chicken_soul", 
+             "fragments:cod_soul", 
+             "fragments:cow_soul", 
+             "fragments:donkey_soul", 
+             "fragments:frog_soul", 
+             "fragments:glow_squid_soul", 
+             "fragments:horse_soul", 
+             "fragments:mooshroom_soul", 
+             "fragments:mule_soul", 
+             "fragments:ocelot_soul", 
+             "fragments:parrot_soul", 
+             "fragments:pig_soul", 
+             "fragments:pufferfish_soul", 
+             "fragments:rabbit_soul", 
+             "fragments:salmon_soul", 
+             "fragments:sheep_soul", 
+             "fragments:skeleton_horse_soul", 
+             "fragments:sniffer_soul", 
+             "fragments:snow_golem_soul", 
+             "fragments:squid_soul", 
+             "fragments:strider_soul", 
+             "fragments:tadpole_soul", 
+             "fragments:tropical_fish_soul", 
+             "fragments:turtle_soul", 
+             "fragments:villager_soul", 
+             "fragments:wandering_trader_soul", 
+             "fragments:bee_soul", 
+             "fragments:cave_spider_soul", 
+             "fragments:dolphin_soul", 
+             "fragments:drowned_soul", 
+             "fragments:enderman_soul", 
+             "fragments:fox_soul", 
+             "fragments:goat_soul", 
+             "fragments:iron_golem_soul", 
+             "fragments:llama_soul", 
+             "fragments:panda_soul", 
+             "fragments:piglin_soul", 
+             "fragments:polar_bear_soul", 
+             "fragments:spider_soul", 
+             "fragments:trader_llama_soul", 
+             "fragments:wolf_soul", 
+             "fragments:zombified_piglin_soul", 
+             "fragments:blaze_soul", 
+             "fragments:creeper_soul", 
+             "fragments:elder_guardian_soul", 
+             "fragments:endermite_soul", 
+             "fragments:evoker_soul", 
+             "fragments:ghast_soul", 
+             "fragments:guardian_soul", 
+             "fragments:hoglin_soul", 
+             "fragments:husk_soul", 
+             "fragments:magma_cube_soul", 
+             "fragments:phantom_soul", 
+             "fragments:piglin_brute_soul", 
+             "fragments:pillager_soul", 
+             "fragments:ravager_soul", 
+             "fragments:shulker_soul", 
+             "fragments:silverfish_soul", 
+             "fragments:skeleton_soul", 
+             "fragments:slime_soul", 
+             "fragments:stray_soul", 
+             "fragments:vex_soul", 
+             "fragments:vindicator_soul", 
+             "fragments:warden_soul", 
+             "fragments:witch_soul", 
+             "fragments:wither_skeleton_soul", 
+             "fragments:zoglin_soul", 
+             "fragments:zombie_soul", 
+             "fragments:zombie_villager_soul"
+            ] 
+          } 
+        ] 
+      } 
+    } 
+  },
+  "rewards": {
+    "recipes": [
+      "fragments:soul_infuser"
+    ]
+  }
+} 

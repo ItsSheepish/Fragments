@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "fragments:diamond_scythe"
+    },
+    "title": {
+      "translate": "advancements.fragments.scythe.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.scythe.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:soul",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fragments:diamond_scythe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

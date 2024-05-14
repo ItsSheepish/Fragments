@@ -12,6 +12,11 @@ public class ModEnchantments {
             new Identifier(Fragments.MOD_ID, "shearing"),
             new Shearing()
     );
+    public static final Enchantment SOUL_REAPER = Registry.register(
+            Registries.ENCHANTMENT,
+            new Identifier(Fragments.MOD_ID, "soul_reaper"),
+            new SoulReaper()
+    );
 
     public static void registerEnchantments() {
         Fragments.LOGGER.info("Registered a couple brilliant enchantments for "+Fragments.MOD_ID);

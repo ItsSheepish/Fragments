@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:wandering_trader_soul" 
+    }, 
+    { 
+      "item": "fragments:wandering_trader_soul" 
+    }, 
+    { 
+      "item": "fragments:wandering_trader_soul" 
+    }, 
+    { 
+      "item": "fragments:wandering_trader_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:wandering_trader_spawn_egg", 
+    "count": 1 
+  } 
+} 

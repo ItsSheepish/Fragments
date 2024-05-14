@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:dolphin_soul" 
+    }, 
+    { 
+      "item": "fragments:dolphin_soul" 
+    }, 
+    { 
+      "item": "fragments:dolphin_soul" 
+    }, 
+    { 
+      "item": "fragments:dolphin_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:dolphin_spawn_egg", 
+    "count": 1 
+  } 
+} 

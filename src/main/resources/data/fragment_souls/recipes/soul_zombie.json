@@ -1,0 +1,24 @@
+{ 
+  "type": "fragments:soul_infuser", 
+  "ingredients": [ 
+    { 
+      "item": "fragments:zombie_soul" 
+    }, 
+    { 
+      "item": "fragments:zombie_soul" 
+    }, 
+    { 
+      "item": "fragments:zombie_soul" 
+    }, 
+    { 
+      "item": "fragments:zombie_soul" 
+    }, 
+    { 
+      "item": "minecraft:egg" 
+    } 
+  ], 
+  "output": { 
+    "item": "minecraft:zombie_spawn_egg", 
+    "count": 1 
+  } 
+} 

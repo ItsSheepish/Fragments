@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "fragments:sharpened_diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.fragments.diamond_cut_tool.title"
+    },
+    "description": {
+      "translate": "advancements.fragments.diamond_cut_tool.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "fragments:diamond_cut",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fragments:sharpened_diamond_pickaxe",
+              "fragments:diamond_blade",
+              "fragments:diamond_war_axe",
+              "fragments:diamond_scythe",
+              "fragments:diamond_excavator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
