@@ -1,6 +1,7 @@
 package its.sheepish.fragments.blocks.entity;
 
 import its.sheepish.fragments.Fragments;
+import its.sheepish.fragments.blocks.custom.SoulInfuserBlock;
 import its.sheepish.fragments.items.ModItems;
 import its.sheepish.fragments.items.custom.DiamondShearsItem;
 import its.sheepish.fragments.items.custom.SoulItem;
@@ -106,6 +107,18 @@ public class SoulInfuserBlockEntity extends BlockEntity implements ExtendedScree
         } else {
             return this.getStack(OUTPUT_SLOT);
         }
+    }
+    public ItemStack getRenderStack1() {
+        return this.getStack(SOUL1_INPUT_SLOT);
+    }
+    public ItemStack getRenderStack2() {
+        return this.getStack(SOUL2_INPUT_SLOT);
+    }
+    public ItemStack getRenderStack3() {
+        return this.getStack(SOUL3_INPUT_SLOT);
+    }
+    public ItemStack getRenderStack4() {
+        return this.getStack(SOUL4_INPUT_SLOT);
     }
 
     @Nullable

@@ -1,5 +1,6 @@
 package its.sheepish.fragments;
 
+import its.sheepish.fragments.action.ShearingEnchantmentHandler;
 import its.sheepish.fragments.action.SpawnerSilkTouchHandler;
 import its.sheepish.fragments.blocks.ModBlocks;
 import its.sheepish.fragments.blocks.entity.ModBlockEntities;
@@ -38,6 +39,7 @@ public class Fragments implements ModInitializer {
         ModCreativeTabs.registerModGroups();
         ModEnchantments.registerEnchantments();
         SpawnerSilkTouchHandler.registerEventHandler();
+        ShearingEnchantmentHandler.registerEventHandler();
         ModBlocks.registerModBlocks();
         ModBlockEntities.registerBlockEntities();
         ModScreenHandlers.registerScreenHandlers();

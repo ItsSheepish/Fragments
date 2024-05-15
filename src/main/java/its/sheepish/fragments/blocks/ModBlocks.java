@@ -5,16 +5,20 @@ import its.sheepish.fragments.blocks.custom.SoulInfuserBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
     public static final Block SOUL_INFUSER = registerBlock("soul_infuser",
-            new SoulInfuserBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new SoulInfuserBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().luminance(8)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
